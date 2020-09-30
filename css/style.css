@@ -51,3 +51,11 @@ h2 {
 .lista-productos li:nth-child(2n+1) {
     clear: both;
 }
+
+.lista-productos li img {
+    border: 10px solid rgba(128, 1, 195, .45);
+    transition: border-color .3s ease-in-out;
+}
+.lista-productos li img:hover {
+    border: 10px solid rgba(128, 1, 195, 1);
+}
