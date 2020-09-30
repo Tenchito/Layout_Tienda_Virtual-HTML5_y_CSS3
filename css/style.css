@@ -59,3 +59,12 @@ h2 {
 .lista-productos li img:hover {
     border: 10px solid rgba(128, 1, 195, 1);
 }
+.lista-productos li p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+span.precio {
+    color: #FFCE00;
+    font-size: 40px;
+}
