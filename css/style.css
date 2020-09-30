@@ -68,3 +68,17 @@ span.precio {
     color: #FFCE00;
     font-size: 40px;
 }
+.boton {
+    background-color: #FFCE00;
+    padding: 10px 40px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #8001C3;
+    transition: background-color .3s ease-in-out;
+}
+.boton:hover {
+    background-color: #EBBC00;
+}
