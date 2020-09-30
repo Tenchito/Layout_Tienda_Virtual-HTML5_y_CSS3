@@ -51,7 +51,17 @@ h2 {
 .lista-productos li:nth-child(2n+1) {
     clear: both;
 }
-
+@media (min-width: 768px) {
+    .lista-productos li {
+        width: 33.3%;
+    }
+    .lista-productos li:nth-child(2n+1) {
+        clear: unset;
+    }
+    .lista-productos li:nth-child(3n+1) {
+        clear: both;
+    }
+}
 .lista-productos li img {
     border: 10px solid rgba(128, 1, 195, .45);
     transition: border-color .3s ease-in-out;
